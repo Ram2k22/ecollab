@@ -1,0 +1,201 @@
+nav{
+    background-color:#5f0461;
+    font-family: cursive;
+    
+}
+
+nav .navbar-brand{
+    font-size:35px;
+    color:white;
+    text-align: center;
+    margin-top:-8px;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+    
+}
+
+nav .navbar-brand span{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+nav .navbar-nav li a{
+    font-weight: bold;
+    color:white;
+    font-size:18px;
+}
+nav .navbar-nav > li:hover a{
+    color:black;
+}
+
+nav .navbar-nav .dropdown-menu li:hover a{
+    background-color: #5f0461;
+    color:white;
+}
+
+nav .navbar-header button span{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+
+.middle-boxes{
+    margin-top: 15px;
+    color:white;
+}
+
+.middle-boxes .box{
+    text-align:center;
+    border:1px solid black;
+    padding:20px;
+    margin-bottom:15px;
+    box-shadow:3px 3px 5px rgba(0,0,0,0.5),
+    -3px -3px 5px rgba(0,0,0,0.5);
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    background-image: linear-gradient(#5f0461,#722474);
+    
+}
+.middle-boxes .box:hover{
+    box-shadow:6px 6px 9px rgba(0,0,0,0.5),
+    -6px -6px 9px rgba(0,0,0,0.5);
+}
+.middle-boxes .box h4{
+    margin-bottom:8px;
+    font-size:35px;
+    font-family: cursive;
+}
+
+.middle-boxes .box p{
+    padding:8px;
+    font-family: cursive;
+    font-size:18px;
+
+}
+.middle-boxes img{
+    border:3px solid white;
+    padding:3px;
+    width:200px;
+    height:150px;
+    text-align:center;
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+}
+
+
+/* faculty slideshow */
+
+
+.f-box{
+    box-shadow:2px 4px 5px rgba(0,0,0,0.5),
+    -2px 4px 5px rgba(0,0,0,0.5);
+    padding:5px;
+    margin:5px;
+}
+
+
+.f-top{
+    background-color: #5f0461;
+    text-align: center;
+}
+
+
+.f-top img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    padding:5px;
+    border:3px solid white;
+    
+    
+}
+
+
+.f-bottom{
+    text-align:center;
+    padding:5px;
+    font-weight: bold;
+}
+.f-bottom span{
+    font-size:20px;
+    color:#5f0461;
+}
+.f-bottom button{
+    padding:3px;
+    background-color: #5f0461;
+    outline:none;
+    border:none;
+    margin-top:5px;
+    border-radius: 4px;
+}
+.f-bottom button a{
+    padding:3px;
+    text-decoration:none;
+    color:white;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #5f0461;
+    text-align:center;
+    padding:25px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.footer .foot{
+    padding:5px;
+}
+.footer .foot a{
+    text-decoration: none;
+    color:white;
+    font-size:16px;
+}
+
+.footer .foot a:hover{
+    text-decoration: underline;
+    color:gold;
+}
+
+/* Youtube video */
+
+.y-video{
+    padding:15px;
+    background-color:#5f0461;
+    color:white;
+    font-family: cursive;
+    margin:20px 0px;
+}
+
+.y-video .vid{
+    padding:5px;
+    text-align:center;
+    border-radius: 5px;
+}
+
+/* ebutton */
+
+.ebutton{
+    border:1px solid white;
+    outline: none;
+    border-radius: 25px;
+}
+
+.ebutton a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding:5px;
+    font-size: 18px;
+    background-image: linear-gradient(#5f0461,#722474);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ebutton:hover{
+    box-shadow:2px 3px 5px rgba(0,0,0,0.5),
+    -2px -3px 5px rgba(0,0,0,0.5);
+}
+

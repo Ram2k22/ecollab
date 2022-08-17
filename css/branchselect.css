@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+}
+
+body{background-color: black;
+    display:grid;
+    grid-template-rows: 150px auto;}
+
+.header{
+    grid-row:1/2;
+    position:relative;
+}
+
+.header h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-bottom:3px solid red;
+    padding:5px;
+    color:#fff;
+}
+
+/* .header h1:before{
+    content:'';
+    width:100%;
+    height:100%;
+    background-color: red;
+    animation: animate 3.5s linear forwards;
+}
+
+@keyframes animate{
+    0%{
+        left:0%;
+    }
+    100%{
+        left:100%;
+    }
+} */
+
+.branch-wrapper{
+    display:grid;
+    grid-template-rows: 50px auto;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row:2/3;
+} 
+
+
+.select-para{
+    grid-row:1/2;
+    grid-column:2/3;
+    color:#fff;
+    text-align: center;
+    font-size:20px;
+}
+
+.branch-block{
+    grid-row:2/3;
+    grid-column:2/3;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,130px);
+    box-shadow: 8px 10px 10px rgb(14, 5, 10),
+    -8px -10px 10px rgb(22, 13, 19);
+    padding:20px 0px 20px 25px;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center; */
+}
+.branch-block:hover{
+    box-shadow: 10px 15px 15px rgb(14, 5, 10),
+    -10px -15px 15px rgb(22, 13, 19);
+}
+
+.branch-block div{
+    width:100px;
+    height:130px;
+    margin:10px;
+    background-color: antiquewhite;
+    position:relative;
+    border-radius: 5px;
+}
+
+.branch-block div button{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    outline:none;
+    border:none;
+    padding:10px;
+    font-size:18px;
+    box-shadow: 2px 3px 2px rgb(224, 219, 222),
+    -2px -3px 2px rgb(212, 196, 207);
+}
+.branch-block div button:hover{
+    cursor:pointer;
+}
+
+
+
+/* .branch-block ul{
+    outline:1px solid white;
+    width:100%;
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+    padding:10px;
+    
+}
+
+.branch-block ul li{
+    width:100px;
+    height:100px;
+    outline:1px solid white;
+    align-items: center;
+    display:flex;
+    justify-content: center;;
+}
+
+.branch-block ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+ */
